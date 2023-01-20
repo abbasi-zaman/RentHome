@@ -1,0 +1,158 @@
+a {
+  color: rgb(53, 47, 47);
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+a:hover {
+  color: rgb(253, 253, 255);
+}
+body {
+  background-color: beige;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.col-sm-3,
+.col-sm-2 {
+  color: rgb(201, 201, 202);
+  margin-top: 20px;
+}
+.col-sm-3:hover {
+  color: white;
+}
+.col-sm-2:hover {
+  color: white;
+}
+.container a {
+  color: rgb(201, 201, 202);
+}
+.container a:hover {
+  color: white;
+}
+.find-us {
+  font-size: 30px;
+  text-align: center;
+}
+.footer {
+  background-color: black;
+  height: 100px;
+  margin-top: 100px;
+  width: 100%;
+}
+.gallery {
+  margin: auto;
+  max-width: 80%;
+}
+.gallery img {
+  padding: 15px;
+  transform: 1s;
+  width: 200px;
+}
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+.header {
+  left: 0;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.img-castle,
+.img-przadki {
+  font-size: 13px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.legend {
+  display: block;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 80%;
+}
+.legend .intro {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.legend img {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 30px;
+}
+.main-story h3 {
+  font-size: 40px;
+  margin-bottom: 15px;
+  padding: 10px;
+  text-shadow: 5px 5px 5px rgba(68, 67, 67, 0.3);
+}
+.nav {
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  width: 100%;
+}
+
+.nav .name {
+  color: rgb(53, 47, 47);
+  font-size: 40px;
+  margin: 5px 0;
+  padding: 5px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.nav .name small {
+  font-size: 20px;
+}
+.nav-menu ul {
+  display: flex;
+  font-weight: bold;
+  list-style: none;
+}
+.nav-menu ul a {
+  color: rgb(53, 47, 47);
+  font-size: 15px;
+  margin: 0 25px;
+  text-decoration: none;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.4s;
+}
+.nav-menu ul a:hover {
+  color: rgb(253, 253, 255);
+}
+.open-source {
+  background-color: rgba(118, 116, 116, 0.724);
+  color: rgb(201, 201, 202);
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+}
+.open-source a {
+  color: rgb(201, 201, 202);
+  text-decoration: none;
+}
+.open-source a:hover {
+  color: white;
+}
+.part {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.phone-nr:hover {
+  cursor: pointer;
+}
+.rezerwat-mp4 {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
